@@ -63,5 +63,7 @@ while ((me === null) || (me === '')) {
     me = prompt("No seriously, what is your name?", "")
 }
 
+// sychronize now
+synchronizeChats()
+// check in the future too
 setInterval(synchronizeChats, 5000)
-
