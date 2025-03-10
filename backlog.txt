@@ -1,12 +1,10 @@
 In Progress
 
 Todo
-- phone chooses tiny fonts
 - exchange chats with a server
 - logout
 
 - attach file
-- login / logout
 - create account
 - add friends
 - every user gets a public channel
@@ -20,3 +18,4 @@ Done
 x post a chat to a global chat
 x scroll to bottom when entering message
 x login
+x phone chooses tiny fonts
