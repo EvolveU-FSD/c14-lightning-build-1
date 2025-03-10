@@ -1,0 +1,16 @@
+In Progress
+- post a chat to to a global chat
+
+Todo
+- login / logout
+- create account
+- add friends
+- every user gets a public channel
+- oauth signing
+- other people can see message
+- add emojis
+- GPT answers for me!
+- attach image
+- dark mode
+
+Done

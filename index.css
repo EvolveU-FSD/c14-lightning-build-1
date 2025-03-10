@@ -1,0 +1,70 @@
+:root {
+    --jet: #2f2f2fff;
+    --rose-pompadour: #dc7f9bff;
+    --carnation-pink: #f7a1c4ff;
+    --light-blue: #9fc2ccff;
+    --tea-rose-red: #e0b7b7ff;
+}
+
+body {
+    font-family: sans-serif;
+    width: 100dvw;
+    height: 100dvh;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: var(--rose-pompadour);
+    padding: 0.5em;    
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+main {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.other-chat {
+    align-self: flex-start;
+    background-color: var(--light-blue);
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 1em 1em 1em 0em;
+}
+
+.my-chat {
+    align-self: flex-end;
+    background-color: var(--carnation-pink);
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 1em 1em 0em 1em;
+}
+
+.author {
+    font-size: 0.75em;
+}
+
+.message-body {
+
+}
+
+footer {
+    background-color: var(--carnation-pink);
+    padding: 0.5em;        
+}
+
+footer input {
+    padding: 0.5em;
+    border-radius: 0.5em;
+    width: 100%;
+    font-size: 1.2em;
+}
