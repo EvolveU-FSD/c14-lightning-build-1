@@ -4,9 +4,9 @@ Todo
 - exchange chats with a server
 - logout
 
-- attach file
 - create account
 - add friends
+- attach file
 - every user gets a public channel
 - oauth signing
 - other people can see message
