@@ -1,7 +1,11 @@
 In Progress
-- post a chat to to a global chat
+- login / logout
 
 Todo
+- phone chooses tiny fonts
+- exchange chats with a server
+
+- attach file
 - login / logout
 - create account
 - add friends
@@ -10,7 +14,8 @@ Todo
 - other people can see message
 - add emojis
 - GPT answers for me!
-- attach image
 - dark mode
 
 Done
+x post a chat to a global chat
+x scroll to bottom when entering message
