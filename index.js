@@ -1,3 +1,4 @@
+let me = "Anonymous"
 
 function addChat(authorName, message, localAuthor = false) {
     const main = document.getElementsByTagName('main')[0]
@@ -29,8 +30,14 @@ function messageChanged() {
     input.value = ""
 }
 
+me = prompt("What is your chat name?", "")
+while ((me === null) || (me === '')) {
+    me = prompt("No seriously, what is your name?", "")
+}
+
 addChat("Scott", "Do you want a logo?")
-addChat("Tony", "Oh yeah!", true)
+addChat(me, "Oh yeah!", true)
 addChat("Mike", "Show me the logo!")
 addChat("Scott", "I have a url: but I closed it.")
-addChat("Tony", "Cool!", true)
+addChat(me, "Cool!", true)
+

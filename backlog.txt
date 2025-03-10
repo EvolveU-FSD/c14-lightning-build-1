@@ -1,9 +1,9 @@
 In Progress
-- login / logout
 
 Todo
 - phone chooses tiny fonts
 - exchange chats with a server
+- logout
 
 - attach file
 - login / logout
@@ -19,3 +19,4 @@ Todo
 Done
 x post a chat to a global chat
 x scroll to bottom when entering message
+x login
